@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.header{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    background-color: rgb(80, 2, 141);
+    color: white;
+    border-radius: 10px ;
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input{
+    width: 90%;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(76, 73, 73);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.result{
+    font-size: 18px;
+    padding: 10px;
+}
+#bmi-id ,#bmi-status{
+    color: green;
+}
